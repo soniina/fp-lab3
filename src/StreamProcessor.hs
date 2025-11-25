@@ -1,4 +1,4 @@
-module StreamProcessor (Config, ResultPoint, processStream) where
+module StreamProcessor (Config (..), ResultPoint, processStream) where
 
 import Interpolation (Point, linearSpline, newton)
 
