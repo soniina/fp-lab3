@@ -175,6 +175,13 @@ main = do
 > newton: 3.0 9.0
 > linear: 3.5 12.5
 > newton: 3.5 12.25
+< EOF
+> linear: 4.0 16.0
+> newton: 4.0 16.0
+> linear: 4.5 20.5
+> newton: 4.5 20.25
+> linear: 5.0 25.0
+> newton: 5.0 25.0
 ```
 
 
