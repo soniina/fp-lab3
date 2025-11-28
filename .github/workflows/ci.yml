@@ -35,7 +35,7 @@ jobs:
           stack setup
           stack build --dependencies-only --test
 
-      - name: Install Tools (if not cached)
+      - name: Install Tools
         run: |
           if ! command -v ormolu &> /dev/null; then stack install ormolu; fi
           if ! command -v hlint &> /dev/null; then stack install hlint; fi
